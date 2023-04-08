@@ -1,0 +1,9 @@
+FROM mysql/mysql-server
+
+ENV MYSQL_ROOT_HOST=%
+ENV MYSQL_ROOT_PASSWORD=123
+
+EXPOSE 3306
+
+CMD ["mysqld"]
+
